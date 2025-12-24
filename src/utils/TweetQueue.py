@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime
 from datetime import timedelta
 from TweetEntitySentiment import entity_sentiment
-from SQLiteUpdateElo import update_PAS
+from services.SQLiteUpdateElo import update_PAS
 from IronySwitchTest import irony_switch
 
 dbname = get_database()
