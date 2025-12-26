@@ -1,0 +1,8 @@
+pymongo
+tweepy
+sqlite3
+pickle
+tweetnlp
+GoogleNews
+pyabsa
+stanza
