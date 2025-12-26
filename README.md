@@ -1,10 +1,13 @@
-🐦 Twitter Interaction Ranker
+# ABANDONED
+### Due to Twitter API pricing changes
+
+## 🐦 Twitter Interaction Ranker
 
 A real-time analytics system that listens to the Twitter (X) filtered stream, tracks tweets from specific users, ranks their interactions using an ELO rating system, and analyzes sentiment toward named entities.
 
 This project combines live social data, competitive ranking models, and NLP to measure influence and opinion dynamics over time.
 
-🚀 Features
+## 🚀 Features
 
 Filtered Stream Listener
 
@@ -44,7 +47,7 @@ Enables fast local querying and reporting.
 
 ---
 
-📦 Installation
+## 📦 Installation
 
 ```
 
@@ -56,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-⚙️ Configuration
+## ⚙️ Configuration
 
 Create a .env file:
 
@@ -70,7 +73,7 @@ TRACKED_USERS=123456,789012
 
 ---
 
-▶️ Usage
+## ▶️ Usage
 
 ```
 
