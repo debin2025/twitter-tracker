@@ -1,5 +1,5 @@
-# ABANDONED
-### Due to Twitter API pricing changes
+# Note:
+### project no longer worked on due to Twitter API pricing changes
 
 ## 🐦 Twitter Interaction Ranker
 
