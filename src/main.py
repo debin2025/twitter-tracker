@@ -1,5 +1,5 @@
 import tweepy
-from pymongo_get_database import get_database
+from services.pymongo_get_database import get_database
 import time
 import asyncio
 import sqlite3
@@ -8,12 +8,12 @@ from datetime import datetime
 from datetime import timedelta
 from collections import Counter
 from tweepy.asynchronous.streaming import (AsyncStreamingClient, StreamRule)
-from TweetNER import ner_gen
-from TweetEntitySentiment import entity_sentiment
-from SQLiteUpdateElo import update_elo
-from IronySwitchTest import irony_switch
-from TweetQueue import check_tweet_queue
-from PromptGen import user_prompt_gen, news_feed_prompt
+from utils.TweetNER import ner_gen
+from utils.TweetEntitySentiment import entity_sentiment
+from services.SQLiteUpdateElo import update_elo
+from utils.IronySwitchTest import irony_switch
+from utils.TweetQueue import check_tweet_queue
+from utils.PromptGen import user_prompt_gen, news_feed_prompt
 
 
 
